@@ -6,14 +6,14 @@ addEventListener("fetch", (event) => {
 const routes = {
   "bydocker.w91m.com": "https://registry-1.docker.io",
   "byquay.w91m.com": "https://quay.io",
-  "gcr.w91m.com": "https://gcr.io",
-  "k8s-gcr.w91m.com": "https://k8s.gcr.io",
-  "k8s.w91m.com": "https://registry.k8s.io",
-  "ghcr.w91m.com": "https://ghcr.io",
-  "cloudsmith.w91m.com": "https://docker.cloudsmith.io",
-  "pypi.w91m.com": "https://pypi.org",
-  "npmjs.w91m.com": "https://registry.npmjs.org",
-  "cnpmjs.w91m.com": "http://r.cnpmjs.org",
+  "bygcr.w91m.com": "https://gcr.io",
+  "shbyk8s-gcr.w91m.com": "https://k8s.gcr.io",
+  "shbyk8s.w91m.com": "https://registry.k8s.io",
+  "shbyghcr.w91m.com": "https://ghcr.io",
+  "cmdcloudsmith.w91m.com": "https://docker.cloudsmith.io",
+  "cmdpypi.w91m.com": "https://pypi.org",
+  "cmdnpmjs.w91m.com": "https://registry.npmjs.org",
+  "cmdcnpmjs.w91m.com": "http://r.cnpmjs.org",
 };
 
 function routeByHosts(host) {
